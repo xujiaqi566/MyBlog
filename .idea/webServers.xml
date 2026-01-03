@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="93db4505-1343-48af-a91b-52acf512bbba" name="WireGuard IP">
+        <fileTransfer rootFolder="/var/www/MyBlog" accessType="SFTP" host="120.46.49.119" port="22" sshConfigId="6c21266d-3722-4b01-ba03-f9ff3f9e5ea6" sshConfig="root@120.46.49.119:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="7f4d71ed-5f36-4092-816a-ef033708cac1" name="Huawei-Cloud">
+        <fileTransfer rootFolder="/var/www/my-blog" accessType="SFTP" host="120.46.49.119" port="22" sshConfigId="6c21266d-3722-4b01-ba03-f9ff3f9e5ea6" sshConfig="root@120.46.49.119:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
